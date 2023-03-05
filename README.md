@@ -1,1 +1,2 @@
-# CAD_Project
+Online Polling System
+Online Polling System is a platform simply designed website where all the users can vote for their respective choices in their respective polls. It is designed in DJango Python based Web Framework. It is efficient in creating the web Application as it provides many built in features like Django Admin Interface, default database – SQLlite3, etc. This project will contain a login dashboard and will contain a mainframe dashboard consisting of voters, position, candidature, Creating Elections etc for the users to interact with on the dashboard.
