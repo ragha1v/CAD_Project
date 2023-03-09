@@ -1,0 +1,1 @@
+In this file, for my convience I revised on how can we connect the bootstrap which is a part of a front-end and backend Django and made a rough webpage which consists of a basic navbar and function is file views.py of DJango.
