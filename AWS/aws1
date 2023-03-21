@@ -1,1 +1,23 @@
+sudo apt-get update
+git clone https://github.com/ragha1v/aws/votingstystem
+cd aws
+cd votingstystem
+sudo ap install pthon3-pip -y
+pip install django
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py createsuperuser
+python3 manage.py runserver
 
+
+Explanation- 
+1.) sudo apt-get update- This command will update all your packages in your environment.
+2.) git clone https://github.com/ragha1v/aws/votingstystem- This command will clone your repository .
+3.) cd aws- Now, our directory will come into aws.
+4.) cd votingstystem- Now, our directory will come into votingstystem.
+5.) sudo ap install pthon3-pip -y- This will install all the python (pip) files and dependencies into your instance.
+6.) pip install django- This will install django in our environment
+7.) python3 manage.py makemigrations- It will migrate our manage.py file which is main file to run in django default files.
+8.) python3 manage.py makemigrations- It will show the outputs that we can now work on our migrated file.
+9.) python3 manage.py createsuperuser- It is an optional step to create super user as if we want to acess the dashboard through the superuser or eant to create it on the login accessing it from public IPV4.
+10.) python3 manage.py runserver- It will run our manage.py file on the server and allocate an ip and port on which our website can be accessed. By default it allocates 127.0.0.1:8080 but we can modify it by running a command : python manage.py runserver 0.0.0.0:8000 like this we can give it any ip and port and change the security groups to custom tcp & port to that range which you are allocating.
